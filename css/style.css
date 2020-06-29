@@ -34,3 +34,51 @@ p {
 img {
   width:100%;
 }
+
+/* Header */
+
+/* Navbar */
+.navbar {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color: #333333;
+  color:#ffffff;
+  opacity: 0.8;
+  width:100%;
+  height:70px;
+  position:fixed;
+  top:0px;
+  padding: 0 30px;
+  transition: 0.8s ease-out;
+}
+
+.navbar:hover {
+  border-bottom: #00b7ff 2px solid;
+  opacity: 1;
+}
+
+.navbar .logo {
+  font-weight:bold;
+}
+
+.navbar div ul {
+  display:flex;
+}
+
+.navbar div ul li {
+  display:block;
+}
+
+.navbar div ul li a {
+  color:#fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  transition: 0.5s ease-out;
+}
+
+.navbar div ul li a:hover {
+  border-bottom: #ffe500 2px solid;
+  box-shadow: #ffe6007a 0 0 1px;
+  background-color:#33333352
+}
