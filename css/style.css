@@ -36,6 +36,49 @@ img {
 }
 
 /* Header */
+.hero {
+  background: url('../images/home/home_showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #333333;
+}
+
+.hero * {
+  z-index: 10;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgb(0, 0,0,0.3);
+  z-index: 9;
+}
+
+.hero .content {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  height: 100%;
+  width:100%;
+  padding:0 20px;
+}
+
+.hero .content .content-header h1 {
+  font-size:55px;
+  font-weight: bold;
+}
+
+.hero .content .content-body p {
+  font-size:23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
 
 /* Navbar */
 .navbar {
