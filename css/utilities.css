@@ -103,6 +103,8 @@
   color: #fff;
   border-radius: 5px;
   transition:0.3s;
+  border: none;
+  outline: none;
 }
 
 .btn:hover {
@@ -124,8 +126,13 @@
   color:#333;
 }
 
+.btn-yessil , .bg-yessil {
+  background-color: #33ac61;
+  color:rgb(255, 255, 255);
+}
+
 .btn-tomato , .bg-tomato {
-  background-color:tomato;
+  background-color:rgb(224, 86, 61);
   color:#fff;
 }
 
@@ -155,9 +162,3 @@
 .text-tomato { 
   color:tomato;
 }
-
-/* background color */
-
-/* padding */
-
-/* margin */

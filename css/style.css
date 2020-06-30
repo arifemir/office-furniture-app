@@ -166,3 +166,62 @@ img {
   height: 290px;
   width: 210px;
 }
+
+/* Callback form */
+
+.contact h2 {
+  margin-left:10px;
+}
+
+.callback-form {
+  width:100%;
+  padding: 20px 0;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+  margin-bottom: 15px;
+}
+
+.callback-form input {
+  width:100%;
+  padding: 4px;
+  height: 40px;
+  border: #f5f5f5 1px solid;
+  border-radius:5px;
+}
+
+.callback-form input:focus {
+  outline-color:#33ac61;
+}
+
+.callback-form .btn {
+  padding: 12px 0;
+  margin-top: 20px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 150px;
+}
+
+.footer a {
+  color:#fff;
+}
+
+.footer a:hover {
+  color: #00b7ff;
+}
+
+.footer .social > * {
+  margin:30px;
+}
