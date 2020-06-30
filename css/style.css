@@ -6,6 +6,10 @@
   margin:0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Roboto',Arial, Helvetica, sans-serif;
   background:#ffffff;
@@ -81,10 +85,17 @@ img {
   z-index: 20;
 }
 
+.navbar.top {
+  background: transparent;
+}
+
 .navbar:hover {
   border-bottom: #00b7ff 2px solid;
+  background-color: #333333;
   opacity: 1;
 }
+
+
 
 .navbar .logo {
   font-weight:bold;
@@ -161,6 +172,7 @@ img {
 
 .cases img:hover {
   opacity: 0.7;
+  cursor:pointer;
 }
 
 /* team */
@@ -274,4 +286,9 @@ img {
     flex:100%;
     max-width: 100%;
   }
+
+  .lb {
+    padding-bottom:15px;
+  }
+
 }
