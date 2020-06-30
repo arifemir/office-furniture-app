@@ -59,6 +59,11 @@ img {
   z-index: 9;
 }
 
+.hero.blog {
+  background: url('../images/blog/office_photos_2.jpg') no-repeat center center/cover;
+  height: 30vh;
+}
+
 /* Navbar */
 .navbar {
   display:flex;
@@ -204,6 +209,29 @@ img {
   margin-top: 20px;
 }
 
+/* post */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 300px;
+  border-radius:50%;
+  display:block;
+  margin:0 auto;
+}
+
 /* footer */
 .footer {
   display: flex;
@@ -224,4 +252,26 @@ img {
 
 .footer .social > * {
   margin:30px;
+}
+
+/* mobile */
+
+@media(max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding:20px;
+    height: 120px;
+  }
+  .navbar div ul li a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+  .flex-items {
+    flex-direction: column;
+  }
+
+  .flex-columns .column , .flex-grid .column {
+    flex:100%;
+    max-width: 100%;
+  }
 }
