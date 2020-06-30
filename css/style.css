@@ -35,9 +35,10 @@ img {
   width:100%;
 }
 
-/* Header */
+/*------- Header ------- */
+/* hero */
 .hero {
-  background: url('../images/home/home_showcase.jpg') no-repeat center center/cover;
+  background:  url('../images/home/home_showcase.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #333333;
@@ -58,28 +59,6 @@ img {
   z-index: 9;
 }
 
-.hero .content {
-  display:flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content:center;
-  text-align: center;
-  height: 100%;
-  width:100%;
-  padding:0 20px;
-}
-
-.hero .content .content-header h1 {
-  font-size:55px;
-  font-weight: bold;
-}
-
-.hero .content .content-body p {
-  font-size:23px;
-  max-width: 600px;
-  margin: 20px 0 30px;
-}
-
 /* Navbar */
 .navbar {
   display:flex;
@@ -94,6 +73,7 @@ img {
   top:0px;
   padding: 0 30px;
   transition: 0.8s ease-out;
+  z-index: 20;
 }
 
 .navbar:hover {
@@ -125,3 +105,46 @@ img {
   box-shadow: #ffe6007a 0 0 1px;
   background-color:#33333352
 }
+
+/* content */
+.hero .content {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  height: 100%;
+  width:100%;
+  padding:0 20px;
+}
+
+.hero .content .content-header h1 {
+  font-size:55px;
+  font-weight: bold;
+}
+
+.hero .content .content-body p {
+  font-size:23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
+
+/*------- Main ------- */
+/* icons */
+
+.icons {
+  padding:30px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background-color: #ffe500;
+  padding:1rem;
+  border-radius:50%;
+  margin-bottom: 15px;
+}
+

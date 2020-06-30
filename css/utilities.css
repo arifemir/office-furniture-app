@@ -1,5 +1,62 @@
+/* flex items */
+.flex-items {
+  display:flex;
+  text-align:center;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+}
 
-/* header */
+.flex-items > div {
+  padding:20px;
+}
+
+/* flex columns */
+.flex-columns .row {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.flex-columns .column {
+  display:flex;
+  flex-direction:column;
+  flex-basis:100%;
+  flex:1;
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+  height: 100%;
+}
+
+.flex-columns .column .column-2 {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  padding:30px;
+}
+
+.flex-columns img {
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.flex-columns h2 {
+  font-size:40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-left:10px;
+}
+
+.flex-columns p {
+  margin:20px 0;
+}
 
 /* button */
 .btn {
@@ -14,32 +71,36 @@
 .btn:hover {
   opacity: 0.9;
 }
-/* button colors */
-.btn-primary {
+/* button colors , bg colors*/
+.btn-primary , .bg-primary {
   background-color:#00b7ff;
   color:#fff;
 }
 
-.btn-secondary {
+.btn-secondary , .bg-secondary {
   background-color: #ffe500;
   color:#333;
 }
 
-.btn-tomato {
+.btn-tomato , .bg-tomato {
   background-color:tomato;
   color:#fff;
 }
 
-.btn-light {
+.btn-light , .bg-light {
   background-color: #f4f4f4;
   color:#333;
 }
 
-.btn-dark {
+.btn-dark , .bg-dark {
   background-color:#333;
   color: #fff;
 }
 
+.btn-outline {
+  background:transparent;
+  border: 1px solid #fff;
+}
 /* text colors */
 .text-primary { 
   color: #00b7ff
