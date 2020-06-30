@@ -148,3 +148,7 @@ img {
   margin-bottom: 15px;
 }
 
+/* Cases */
+.cases img:hover {
+  opacity: 0.7;
+}
