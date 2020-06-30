@@ -149,6 +149,20 @@ img {
 }
 
 /* Cases */
+
+.cases img {
+  height: 50%;
+}
+
 .cases img:hover {
   opacity: 0.7;
+}
+
+/* team */
+
+.team img {
+  border-radius:50%;
+  object-fit: scale-down;
+  height: 290px;
+  width: 210px;
 }

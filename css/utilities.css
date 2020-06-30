@@ -9,6 +9,7 @@
 
 .flex-items > div {
   padding:20px;
+  flex:1;
 }
 
 /* flex columns */
@@ -62,6 +63,19 @@
   margin:20px 0;
 }
 
+/* Flex grid */
+
+.flex-grid .row {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
 /* section header */
 .section-header {
   padding:30px;
@@ -70,7 +84,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 40%;
 }
 
 .section-padding {
@@ -81,26 +94,6 @@
   font-size:40px;
   margin: 20px 0;
 }
-
-/* Flex grid */
-
-.flex-grid .row {
-  display:flex;
-  flex-wrap:wrap;
-  padding: 0 4px;
-  height: 60%;
-}
-
-.flex-grid .column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.flex-grid .column img {
-  height: 50%;
-}
-
 
 /* button */
 .btn {
