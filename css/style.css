@@ -43,7 +43,7 @@ img {
 /*------- Header ------- */
 /* hero */
 .hero {
-  background: url("../images/home/home_showcase.jpg") no-repeat center
+  background: url("../assets/images/home/home_showcase.jpg") no-repeat center
     center/cover;
   height: 100vh;
   position: relative;
@@ -66,7 +66,7 @@ img {
 }
 
 .hero.blog {
-  background: url("../images/blog/office_photos_2.jpg") no-repeat center
+  background: url("../assets/images/blog/office_photos_2.jpg") no-repeat center
     center/cover;
   height: 30vh;
 }
